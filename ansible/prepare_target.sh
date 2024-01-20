@@ -12,4 +12,4 @@ if [ -n "${ssh_pub}" ]; then
 fi
 
 # Needed when changing user inside an Ansible script (source: https://stackoverflow.com/a/56379678)
-apt-get install acl
+apt install acl

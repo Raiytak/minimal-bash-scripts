@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eou pipefail
 
-apt-get install python3-pip
+apt install python3-pip
 pip install ansible
 pip install ansible-lint
 
